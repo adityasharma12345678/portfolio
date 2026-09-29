@@ -75,7 +75,7 @@ const Icon = ({ name }) => {
 const downloadResume = () => {
   const a = document.createElement("a");
   a.href = "/resume.pdf";
-  a.download = "Satvik_Resume.pdf";
+  a.download = "Aditya_Resume.pdf";
   a.style.display = "none";
   document.body.appendChild(a);
   a.click();
@@ -115,8 +115,8 @@ const Navbar = ({ active, scrolled, progress }) => {
       <div className="scroll-progress" style={{ transform: `scaleX(${progress})` }} />
       <div className="container navbar-inner">
         <a className="brand" href="#home" onClick={() => setOpen(false)}>
-          <span className="brand-mark">SG</span>
-          <span className="brand-name">Satvik Gadhiya</span>
+          <span className="brand-mark">AS</span>
+          <span className="brand-name">Aditya Sharma</span>
         </a>
 
         <nav className={`nav-links ${open ? "is-open" : ""}`}>
@@ -176,7 +176,7 @@ const Hero = () => {
 
       <div className="container hero-content">
         <p className="hero-greeting hero-anim" style={{ "--d": "0.1s" }}>
-          <span className="wave">👋</span> Hi, I'm Satvik Gadhiya
+          <span className="wave">👋</span> Hi, I'm Aditya Sharma
         </p>
         <h1 className="hero-title">
           <span className="gradient-text">{title}</span>
@@ -243,7 +243,7 @@ const About = () => {
         <SectionHeading eyebrow="01 — Introduction" title="About Me" />
         <div className="about-grid">
           <p className="about-text" data-reveal>
-            Hi, I'm Satvik, a passionate frontend web developer dedicated to
+            Hi, I'm Aditya, a passionate frontend web developer dedicated to
             creating exceptional user experiences. With expertise in modern web
             technologies and a keen eye for design, I transform complex
             challenges into elegant, user-friendly solutions.
@@ -584,7 +584,7 @@ const Contact = () => {
 const Footer = () => (
   <footer className="footer">
     <div className="container footer-inner">
-      <p>&copy; {new Date().getFullYear()} Satvik Gadhiya. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} Aditya Sharma. All rights reserved.</p>
       <a href="#home" className="back-to-top" aria-label="Back to top">
         <Icon name="up" />
       </a>
