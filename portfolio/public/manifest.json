@@ -1,0 +1,15 @@
+{
+  "short_name": "Satvik Portfolio",
+  "name": "Satvik Gadhiya - Portfolio",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0088af",
+  "background_color": "#ffffff"
+}
